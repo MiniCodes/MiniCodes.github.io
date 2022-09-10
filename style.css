@@ -1,6 +1,33 @@
+head{
+    color: #f1e3dd;
+}
+
+body{
+    color: #f1e3dd;
+}
+
+p{
+    color: #8d9db6;
+    text-align: center;
+}
+
+.otherlinks{
+    text-align: left;
+}
+
+.pagelink{
+    color: #8d9db6;
+    font-size: 18px;
+    text-align: left;
+}
+
 .Title{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     text-align: center;
-    color: rgb(104, 59, 146);
+    color: #667292;
+}
+
+h3{
+    color: #667292;
 }
