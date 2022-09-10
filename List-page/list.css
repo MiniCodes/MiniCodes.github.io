@@ -1,0 +1,54 @@
+head{
+    background-color: #fff2df;
+}
+
+body{
+    background-color: #fff2df;
+}
+
+img{
+    width: 330px;
+    height: 500px;
+    float: right;
+}
+
+.imglink{
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+}
+
+a{
+    color: #d9ad7c;
+    text-align: right;
+}
+
+.pagelink{
+    color: #d9ad7c;
+    font-size: 18px;
+}
+
+h1{
+    color: #674d3c;
+    text-align: center;
+}
+
+h3{
+    color: #674d3c;
+    font-size: 22px;
+}
+
+.ulTitle{
+    color: #674d3c;
+    font-size: 24px;
+}
+
+.olTitle{
+    color: #674d3c;
+    font-size: 24px;
+}
+
+li{
+    color: #a2836e;
+    font-size: 20px;
+}
