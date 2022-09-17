@@ -18,6 +18,12 @@ img{
     text-align: right;
 }
 
+.CoffeeLink{
+    color: #a2836e;
+    font-size: 20px;
+    font-style: italic;
+}
+
 a{
     color: #d9ad7c;
     text-align: right;
