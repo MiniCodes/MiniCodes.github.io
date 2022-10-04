@@ -8,7 +8,7 @@ body{
 
 img{
     width: 330px;
-    height: 500px;
+    height: 560px;
     float: right;
 }
 
@@ -27,34 +27,41 @@ img{
 a{
     color: #d9ad7c;
     text-align: right;
+    font-family: 'Handlee', cursive;
 }
 
 .pagelink{
     color: #d9ad7c;
     font-size: 18px;
+    font-family: 'Handlee', cursive;
 }
 
 h1{
     color: #674d3c;
     text-align: center;
+    font-family: 'Homemade Apple', cursive;
 }
 
 h3{
     color: #674d3c;
     font-size: 22px;
+    font-family: 'Marck Script', cursive;
 }
 
 .ulTitle{
     color: #674d3c;
-    font-size: 24px;
+    font-size: 26px;
+    font-family: 'Marck Script', cursive;
 }
 
 .olTitle{
     color: #674d3c;
-    font-size: 24px;
+    font-size: 26px;
+    font-family: 'Marck Script', cursive;
 }
 
 li{
     color: #a2836e;
     font-size: 20px;
+    font-family: 'Handlee', cursive;
 }
