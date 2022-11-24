@@ -1,3 +1,69 @@
+.nav-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    background: #d9ad7c;
+}
+
+.fixfloat{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav-title{
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+   display: inline-block;
+   margin-left: 70px;
+   padding-top: 15px;
+   padding-bottom: 15px; 
+
+   position: relative;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: none;
+    size: 16px;
+}
+
+nav a:hover{
+    color: #000;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #674d3c;
+
+    position: absolute;
+    top: 0;
+    width: 0;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
 head{
     background-color: #fff2df;
 }
