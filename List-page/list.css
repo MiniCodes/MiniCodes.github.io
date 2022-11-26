@@ -5,6 +5,7 @@
 
 header{
     background: #d9ad7c;
+    width: 100%;
 }
 
 .fixfloat{
@@ -36,7 +37,7 @@ nav li{
    position: relative;
 }
 
-nav a{
+nav .navlink{
     text-decoration: none;
     text-transform: none;
     size: 16px;
@@ -90,12 +91,14 @@ img{
     font-style: italic;
 }
 
+*this is an issue for the links
 a{
     color: #d9ad7c;
     text-align: right;
     font-family: 'Handlee', cursive;
 }
 
+*Another issue with the links
 .pagelink{
     color: #d9ad7c;
     font-size: 18px;
