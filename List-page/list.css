@@ -130,3 +130,22 @@ li{
     font-size: 20px;
     font-family: 'Handlee', cursive;
 }
+
+.p-review{
+    color: #674d3c;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Handlee', cursive;
+}
+
+.reviews{
+    font-family: 'Handlee', cursive;
+    font-size: 14px;
+    font-weight: 500;
+    color: #a2836e;
+    background-color: #fff2df;
+    width: 309px;
+    height: 65px;
+    overflow: auto;
+}
