@@ -14,8 +14,10 @@ header{
     clear: both;
 }
 
-.nav-title{
+.logo{
     float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 nav{
@@ -37,7 +39,7 @@ nav li{
    position: relative;
 }
 
-nav .navlink{
+nav a{
     text-decoration: none;
     text-transform: none;
     size: 16px;
@@ -83,6 +85,8 @@ img{
     font-size: 10px;
     font-style: italic;
     text-align: right;
+    color: #d9ad7c;
+    font-family: 'Handlee', cursive;
 }
 
 .CoffeeLink{
@@ -91,14 +95,6 @@ img{
     font-style: italic;
 }
 
-*this is an issue for the links
-a{
-    color: #d9ad7c;
-    text-align: right;
-    font-family: 'Handlee', cursive;
-}
-
-*Another issue with the links
 .pagelink{
     color: #d9ad7c;
     font-size: 18px;
