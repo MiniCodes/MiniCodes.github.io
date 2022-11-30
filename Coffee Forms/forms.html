@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Handlee&family=Homemade+Apple&family=Marck+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="forms.css">
+
+        <title>Coffee Forms</title>
+    </head>
+
+    <body>
+        <header class="fixfloat">
+            <div class="nav-container">
+                
+                <label class="logo">Minicodes!</label>
+    
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Homepage</a></li>
+                        <li><a href="../List-page/listpage.html">Coffee Corner</a></li>
+                        <li><a href="../test.html">Test Page</a></li>
+                        <li><a href="../Coffee Board/coffeeboard.html">Mood Board</a></li>
+                        <li><a href="forms.html">Forms</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <h1>Coffee Likes & Dislikes Form :3</h1>
+
+        <div class="forms-grid">
+            <div class="form">
+                <form action="action_page.php" method="post">
+                    <label for="fname">First name:</label>
+                    <br>
+                    <input type="text" id="fname" name="fname" value="">
+                    <br><br>
+                    <label for="lname">Last name:</label>
+                    <br>
+                    <input type="text" id="lname" name="lname" value="">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" id="email" name="email" value="">
+                    <br><br>
+                    <p>Select your Favorite Coffe Shop:</p>
+                    <input type="radio" id="starbucks" name="fav_shop" value="Starbucks">
+                    <label for="starbucks">Starbucks</label>
+                    <input type="radio" id="dutchbros" name="fav_shop" value="Dutch Bros.">
+                    <label for="dutchbros">Dutch Bros.</label>
+                    <input type="radio" id="flyingm" name="fav_shop" value="Flying M.">
+                    <label for="flyingm">Flying M.</label>
+                    <br><br>
+                    <p>Do you like Milk in your coffe?</p>
+                    <input type="radio" id="yes" name="milk_coffee" value="Yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="milk_coffee" value="No">
+                    <label for="no">No</label>
+                    <input type="radio" id="sometimes" name="milk_coffee" value="Sometimes">
+                    <label for="sometimes">Sometimes</label>
+                    <br><br>
+                    <p>What kind of Coffees do you Like?</p>
+                    <input type="checkbox" id="coffee1" name="coffee1" value="Mocha">
+                    <label for="coffee1">Mocha</label>
+                    <input type="checkbox" id="coffee2" name="coffee2" value="Latte">
+                    <label for="coffee2">Latte</label>
+                    <input type="checkbox" id="coffee3" name="coffee3" value="Iced Coffee">
+                    <label for="coffee3">Iced Coffee</label>
+                    <input type="checkbox" id="coffee4" name="coffee4" value="Hot Coffee">
+                    <label for="coffee4">Hot Coffee</label>
+                    <input type="checkbox" id="coffee5" name="coffee5" value="Chai">
+                    <label for="coffee5">Chai</label>
+                    <br><br>
+                    <input class="submit-button" type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>Coffee Shop</th>
+                        <th>Average Price</th>
+                        <th>Website Link</th>
+                    </tr>
+
+                    <tr>
+                        <td>Starbucks</td>
+                        <td>$1.85</td>
+                        <td><a href="https://www.starbucks.com/">Starbucks</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Dutch Bros.</td>
+                        <td>$3</td>
+                        <td><a href="https://www.dutchbros.com/">Dutch Bros.</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Flying M.</td>
+                        <td>$2.85</td>
+                        <td><a href="https://www.flyingmcoffee.com/">Flying M.</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Moxie Java</td>
+                        <td>$2.50</td>
+                        <td><a href="https://moxiejava.com/">Moxie Java</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>The Human Bean</td>
+                        <td>$3.06</td>
+                        <td><a href="https://thehumanbean.com/">The Human Bean</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

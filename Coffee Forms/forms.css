@@ -1,0 +1,145 @@
+.nav-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    background: #d9ad7c;
+    width: 100%;
+}
+
+.fixfloat{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Marck Script', cursive;
+    font-weight: 600;
+    font-size: 20px;
+    color: #674d3c;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+   display: inline-block;
+   margin-left: 70px;
+   padding-top: 18px;
+   padding-bottom: 15px; 
+
+   position: relative;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: none;
+    color: #674d3c;
+    font-family: 'Handlee', cursive;
+    font-weight: 600;
+    size: 16px;
+}
+
+nav a:hover{
+    color: #000;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #674d3c;
+
+    position: absolute;
+    top: 0;
+    width: 0;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+head{
+    background-color: #fff2df;
+}
+
+body{
+    background-color: #fff2df;
+}
+
+h1{
+    font-family: 'Marck Script', cursive;
+    font-size: 45px;
+    color: #674d3c;
+    text-align: center;
+}
+
+.forms-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0;
+}
+
+.form{
+    font-family: 'Handlee', cursive;
+    font-weight: 600;
+    font-size: 18px;
+    color: #a2836e;
+    padding-left: 15px;
+}
+
+.submit-button{
+    color: #a2836e;
+    font-family: 'Handlee', cursive;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #674d3c;
+}
+
+.table{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+table tr th{
+    width: 160px;
+}
+
+th{
+    font-family: 'Handlee', cursive;
+    color: #674d3c;
+    font-size: 18px;
+}
+
+td{
+    font-family: 'Handlee', cursive;
+    color: #674d3c;
+    text-align: center;
+}
+
+th, td{
+    background-color: #d9ad7c;
+}
+
+a{
+    font-family: 'Handlee', cursive;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    color: #674d3c;
+}
