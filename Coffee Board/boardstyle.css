@@ -94,7 +94,7 @@ body{
     width: 80%;
     display: grid;
     grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 300px 300px;
+    grid-template-rows: 300px 300px 300px;
     column-gap: 15px;
     row-gap: 65px;
 }
@@ -135,4 +135,19 @@ body{
 .child-three img{
     width: 400px;
     height: 500px;
+}
+
+.child-five img{
+    width: 300px;
+    height: 300px;
+}
+
+.child-six img{
+    width: 300px;
+    height: 300px;
+}
+
+.child-seven img{
+    width: 300px;
+    height: 300px;
 }
