@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Handlee&family=Homemade+Apple&family=Marck+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="dynamic.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
+
+        <title>Random Colors!</title>
+    </head>
+
+    <body style="text-align:center;" id="body">
+    <header class="fixfloat">
+        <div class="nav-container">
+            
+            <label class="logo">Minicodes!</label>
+
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Homepage</a></li>
+                    <li><a href="../List-page/listpage.html">Coffee Corner</a></li>
+                    <li><a href="../test.html">Test Page</a></li>
+                    <li><a href="../Coffee Board/coffeeboard.html">Mood Board</a></li>
+                    <li><a href="../Coffee Forms/forms.html">Forms</a></li>
+                    <li><a href="name.html">Names!</a></li>
+                    <li><a href="color.html">Colors!</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <h1>Enter Your Color Choice</h1>
+  
+    <button type="button" onclick="changecolor()">
+        Color
+    </button>
+  
+    <script>
+        function changecolor()
+        {
+            // Generating random color each time
+            var color = "#"+(Math.random()*16777215|0).toString(16);
+              
+            $("body").css("background-color",color);
+        }
+    </script>
+
+    </body>
+
+</html>
