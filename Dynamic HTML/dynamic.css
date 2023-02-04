@@ -36,7 +36,7 @@ nav ul{
 
 nav li{
    display: inline-block;
-   margin-left: 70px;
+   margin-left: 55px;
    padding-top: 18px;
    padding-bottom: 15px; 
 
@@ -116,4 +116,13 @@ h3{
 
 .name-input{
     text-align: center;
+}
+
+.classinfo{
+    text-align: center;
+}
+
+.printed-classinfo{
+    font-weight: bold;
+    font-style: italic;
 }
