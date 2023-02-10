@@ -33,20 +33,43 @@
 
         <h1>Name & Class Information</h1>
 
-        <div class="printed-classinfo">
-            <p id="name">
-                Click the button below for my class information!
-            </p>
+        <div class="printedJS">
+            <div class="group-class">
+                <div class="printed-classinfo">
+                    <p id="name">
+                        Click the button below for my class information!
+                    </p>
+        
+                    <p id="courseName"></p>
+        
+                    <p id="teacherName"></p>
+                </div>
+    
+                <div class="classinfo">
+                    <button type="button" onclick="PrintClassInfo()">
+                        Class Info
+                    </button>
+                </div>
+            </div>
+    
+            <div class="group-math">
+                <div class="printed-math">
+                    <p>Time for some basic math!</p>
+                    
+                    <p>
+                        Enter your favorite number & click the button to 
+                        do some basic math.
+                    </p>
 
-            <p id="courseName"></p>
+                    <input id="favNumber" type="number">
 
-            <p id="teacherName"></p>
-        </div>
+                    <button type="button" onclick="PrintMath()">
+                        Test it!
+                    </button>
 
-        <div class="classinfo">
-            <button type="button" onclick="PrintClassInfo()">
-                Class Info
-            </button>
+                    <p id="math"></p>
+                </div>
+            </div>
         </div>
 
         <script src="firstjava.js"></script>

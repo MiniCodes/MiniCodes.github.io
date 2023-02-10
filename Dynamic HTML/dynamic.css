@@ -118,11 +118,22 @@ h3{
     text-align: center;
 }
 
+.printedJS{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .classinfo{
     text-align: center;
 }
 
 .printed-classinfo{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.group-math{
+    text-align: center;
     font-weight: bold;
     font-style: italic;
 }
