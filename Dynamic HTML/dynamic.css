@@ -121,6 +121,7 @@ h3{
 .printedJS{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .classinfo{
@@ -136,4 +137,31 @@ h3{
     text-align: center;
     font-weight: bold;
     font-style: italic;
+}
+
+.group-comparisons{
+    text-align: center;
+}
+
+/* Styles all paragraphs in group-comparisons */
+.group-comparisons p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Resizes h3 for group-comparisons */
+.group-comparisons h3 {
+    font-size: 30px;
+}
+
+/* Displays grid for the inputs for group-comparisons */
+.calinputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Displays grid for the buttons for group-comparisons */
+.calbuttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
