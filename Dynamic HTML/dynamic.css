@@ -124,6 +124,11 @@ h3{
     grid-template-rows: 1fr 1fr;
 }
 
+/* Resizes h3 for the children in printedJS */
+.printedJS h3 {
+    font-size: 30px;
+}
+
 .classinfo{
     text-align: center;
 }
@@ -149,11 +154,6 @@ h3{
     font-style: italic;
 }
 
-/* Resizes h3 for group-comparisons */
-.group-comparisons h3 {
-    font-size: 30px;
-}
-
 /* Displays grid for the inputs for group-comparisons */
 .calinputs {
     display: grid;
@@ -164,4 +164,16 @@ h3{
 .calbuttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* Styles text for Math Loop */
+.group-mathloop {
+    text-align: center;
+}
+
+/* Creates grid & Styles Math Loop Inputs */
+.loopinputs {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }

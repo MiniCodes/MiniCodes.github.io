@@ -126,3 +126,32 @@ function CalDivide() {
         firstCalNum / secondCalNum;
     }
 }
+
+
+function LoopMath() {
+    /* Defines inputs for the two numbers */
+    let loopOne = document.getElementById("loopNum1").value
+    let loopTwo = document.getElementById("loopNum2").value
+    
+    let loopEnd = document.getElementById("loopEnd").value
+
+    /* Turns all inputs into integers */
+    loopOne = parseInt(loopOne)
+    loopTwo = parseInt(loopTwo)
+    loopEnd = parseInt(loopEnd)
+
+    //document.getElementById("testLoop").innerHTML = 
+    //loopOne + "<br>" + loopTwo + "<br>" + loopEnd
+
+    let doLoop = true
+    var total = 0;
+    while(doLoop) {
+        if(loopEnd == -1){
+            doLoop = false
+        }else{
+          total += loopOne + loopTwo
+       
+        }
+    }
+    document.getElementById("testLoop").innerHTML = total
+}
